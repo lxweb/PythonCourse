@@ -15,6 +15,8 @@ sum = 3
 sum += 5
 print(sum)
 
+#Python is Case sensitive, so Name and name are different variables
+
 """
 Concat
 """
@@ -43,3 +45,10 @@ DelName2 = "Jhon2"
 DelGreet =  f"Hello {DelName2}, nice to meet you!"
 del DelName2
 print(DelGreet)
+
+
+"""
+Variables naming conventions
+camelCase: thisIsMyVariable
+snake_case: this_is_my_variable (python recomendation)
+"""
