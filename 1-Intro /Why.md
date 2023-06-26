@@ -1,0 +1,13 @@
+- Easy to read - 2 minutes explanation
+- Less lines of code - 2 minutes explanation
+- Identation removes symbols - 2 minutes explanation
+- Standard libraries saves a lot of time - 2 minutes explanation
+- Huge community - 5 minutes explanation
+- Easy Integration with others technologies - 5 minutes explanation
+- Multi-paradigm - 2 minutes explanation
+- Free
+
+- Guido van Rossum - history
+- python 2 - 2000
+- python 3 - 2008
+- python 3. ...
