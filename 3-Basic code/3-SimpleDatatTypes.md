@@ -22,3 +22,8 @@ Int (Integer)
 
 Float
 4.4
+
+Bool (Boolean)
+
+True
+False
