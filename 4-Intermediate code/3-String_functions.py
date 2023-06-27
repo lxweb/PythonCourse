@@ -1,5 +1,6 @@
 
 # Methods 
+my_var = "test-text"
 print( my_var.upper() )
 print( my_var.lower() )
 print( my_var.capitalize() )
@@ -37,4 +38,32 @@ print(my_string_to_count.replace("cat", "Those")) # if the given string is not p
 
 #  Turn a String into a list
 print( my_string_to_count.split() ) # by default it separates by spaces ['This', 'is', 'our', 'string', 'to', 'test']
-print( my_string_to_count.split("") ) # by default it separates by spaces ['This', 'is', 'our', 'string', 'to', 'test']
+
+# Dictionary methods
+
+# Keys
+dic = {
+    "name": "Mike",
+    "lastName": "Doe",
+    "age": 23,
+    "isDev": True
+}
+
+keys = dic.keys()
+print(keys)
+
+basic_access = dic.get("name") # if there is no member with that name it returns None
+print(basic_access)
+
+
+# remove an specific item/s
+dic.pop("name")
+print(dic)
+
+dic.pop("age", "isDev") # Can remove more that 1 item at the same time
+print(dic)
+
+dic.items() # returns an iterable version of the dic
+
+dic.clear() # removes all the values of the dictionary
+print(dic)
