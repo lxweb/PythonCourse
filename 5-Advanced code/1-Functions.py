@@ -53,3 +53,27 @@ def greet_with_arguments(first_name, last_name, age):
 
 print(greet_with_arguments('Mike', 'Smith', 50))
 print(greet_with_arguments(age=40, first_name='Josh', last_name='Hilton'))
+
+
+# lambda functions
+
+my_lambda_function = lambda x : x*2
+
+print(my_lambda_function(3))
+
+nums = [1,2,3,4,5,6,7,8,9]
+
+def is_even(nu):
+    if nu%2==0:
+        return True
+    return False
+
+even_nums = filter(is_even, nums)
+
+print(list(even_nums))
+
+# replacing with lambda functions
+
+even_nums2 = filter(lambda x : x%2==0, nums)
+
+print(list(even_nums2))
