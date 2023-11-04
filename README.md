@@ -26,7 +26,6 @@ The course is structured into modules, each covering a specific topic in Python 
 
 - **Module 4: Intermediate-code**
   - Working with data structures (lists, dictionaries, sets)
-  - 
 
 - **Module 5: Advanced Python**
   - File handling and I/O
